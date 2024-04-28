@@ -1,0 +1,165 @@
+% --- Hechos ---
+% Definición de hierbas con sus propiedades
+hierba('Manzanilla', ['calmante', 'antiinflamatorio', 'digestivo', 'antiespasmódico']).
+hierba('Eucalipto', ['descongestionante', 'antiséptico', 'expectorante']).
+hierba('Menta', ['analgésico', 'digestivo', 'descongestionante']).
+hierba('Tila', ['sedante', 'calmante', 'antiespasmódico']).
+hierba('Aloe Vera', ['antiséptico', 'cicatrizante', 'hidratante']).
+% Hierbas que me tocaron
+hierba('Anacahuite', ['antiinflamatorio', 'antiséptico', 'expectorante']).
+hierba('Árnica', ['antiinflamatorio', 'analgésico', 'cicatrizante']).
+hierba('Barbasco', ['antiespasmódico', 'digestivo', 'diurético']).
+% Hierbas que me tocaron
+hierba('Digital', ['cardiotónico', 'diurético']).
+hierba('Opio', ['analgésico', 'sedante', 'antidiarreico']).
+hierba('Ipeca', ['expectorante', 'emético']).
+hierba('Nuez Vómica', ['estimulante', 'tónico']).
+hierba('Eléboro Blanco', ['purgante', 'cardiotónico']).
+hierba('Colchico', ['antiinflamatorio', 'analgésico']).
+hierba('Belladona', ['analgésico', 'antiespasmódico']).
+hierba('Quina', ['antimalárico', 'digestivo']).
+hierba('Cacao', ['estimulante', 'antioxidante']).
+hierba('Retama', ['diurético', 'laxante']).
+hierba('Coca', ['estimulante', 'analgésico']).
+hierba('Peyote', ['alucinógeno']).
+hierba('Efedra', ['estimulante', 'descongestionante']).
+hierba('Nenúfar Amarillo', ['sedante', 'antidiarreico']).
+hierba('Ñame', ['antiinflamatorio', 'analgésico']).
+hierba('Artemisa', ['calmante', 'antiinflamatorio']).
+hierba('Semilla de Yute', ['emético', 'purgante']).
+hierba('Toloache', ['alucinógeno', 'antiespasmódico']).
+hierba('Rosal', ['antiséptico', 'digestivo']).
+
+% Descripción de propiedades
+propiedad('calmante', 'Alivia el dolor y relaja los músculos').
+propiedad('antiinflamatorio', 'Reduce la inflamación').
+propiedad('digestivo', 'Ayuda a la digestión').
+propiedad('descongestionante', 'Alivia la congestión nasal').
+propiedad('analgésico', 'Alivia el dolor').
+propiedad('sedante', 'Induce la relajación y el sueño').
+propiedad('antiespasmódico', 'Alivia los espasmos musculares').
+propiedad('antiséptico', 'Previene infecciones').
+propiedad('expectorante', 'Facilita la expulsión de mucosidad').
+propiedad('cicatrizante', 'Acelera la cicatrización de heridas').
+propiedad('hidratante', 'Hidrata la piel').
+propiedad('diurético', 'Aumenta la producción de orina').
+propiedad('cardiotónico', 'Fortalece y regula el corazón').
+propiedad('antidiarreico', 'Previene la diarrea').
+propiedad('emético', 'Induce el vómito').
+propiedad('estimulante', 'Aumenta la energía y la alerta').
+propiedad('purgante', 'Limpia el intestino').
+propiedad('antimalárico', 'Previene o trata la malaria').
+propiedad('alucinógeno', 'Produce alucinaciones').
+propiedad('antioxidante', 'Combate los radicales libres').
+propiedad('laxante', 'Promueve la evacuación intestinal').
+
+% Descripción de enfermedades y sus síntomas
+enfermedad('Gripe', ['fiebre', 'tos', 'congestión nasal', 'dolor de cabeza']).
+enfermedad('Indigestión', ['dolor de estómago', 'hinchazón', 'acidez']).
+enfermedad('Insomnio', ['dificultad para dormir', 'ansiedad', 'estrés']).
+enfermedad('Quemaduras', ['lesiones cutáneas', 'dolor', 'inflamación']).
+enfermedad('Artritis', ['dolor articular', 'rigidez', 'inflamación']).
+enfermedad('Malaria', ['fiebre', 'escalofríos', 'fatiga']).
+enfermedad('Diarrea', ['heces sueltas', 'deshidratación']).
+enfermedad('Asma', ['dificultad para respirar', 'sibilancias', 'tos']).
+enfermedad('Depresión', ['tristeza persistente', 'pérdida de interés']).
+enfermedad('Hipertensión', ['presión arterial alta']).
+
+% Relación entre enfermedades y hierbas utilizadas para tratarlas
+tratamiento('Gripe', 'Eucalipto').
+tratamiento('Gripe', 'Menta').
+tratamiento('Indigestión', 'Manzanilla').
+tratamiento('Insomnio', 'Tila').
+tratamiento('Quemaduras', 'Aloe Vera').
+tratamiento('Quemaduras', 'Árnica').
+tratamiento('Artritis', 'Árnica').
+tratamiento('Artritis', 'Anacahuite').
+tratamiento('Artritis', 'Barbasco').
+tratamiento('Malaria', 'Quina').
+tratamiento('Diarrea', 'Opio').
+tratamiento('Asma', 'Efedra').
+tratamiento('Depresión', 'Cacao').
+tratamiento('Hipertensión', 'Toloache').
+tratamiento('Hipertensión', 'Eucalipto').
+
+% Definición de formas de empleo de hierbas
+se_emplea_de_forma('Manzanilla', 'infusión').
+se_emplea_de_forma('Eucalipto', 'inhalación').
+se_emplea_de_forma('Menta', 'infusión').
+se_emplea_de_forma('Tila', 'infusión').
+se_emplea_de_forma('Aloe Vera', 'aplicación tópica').
+se_emplea_de_forma('Anacahuite', 'infusión').
+se_emplea_de_forma('Árnica', 'aplicación tópica').
+se_emplea_de_forma('Barbasco', 'infusión').
+se_emplea_de_forma('Digital', 'infusión').
+se_emplea_de_forma('Opio', 'comprimidos').
+se_emplea_de_forma('Ipeca', 'jarabe').
+se_emplea_de_forma('Nuez Vómica', 'tintura').
+se_emplea_de_forma('Eléboro Blanco', 'infusión').
+se_emplea_de_forma('Colchico', 'infusión').
+se_emplea_de_forma('Belladona', 'tintura').
+se_emplea_de_forma('Quina', 'infusión').
+se_emplea_de_forma('Cacao', 'consumir').
+se_emplea_de_forma('Retama', 'infusión').
+se_emplea_de_forma('Coca', 'masticar hojas').
+se_emplea_de_forma('Peyote', 'consumir').
+se_emplea_de_forma('Efedra', 'infusión').
+se_emplea_de_forma('Nenúfar Amarillo', 'infusión').
+se_emplea_de_forma('Ñame', 'consumir').
+se_emplea_de_forma('Artemisa', 'infusión').
+se_emplea_de_forma('Semilla de Yute', 'infusión').
+se_emplea_de_forma('Toloache', 'tintura').
+se_emplea_de_forma('Rosal', 'infusión').
+
+% Descripción de contraindicaciones para hierbas
+contraindicacion('Manzanilla', 'embarazo').
+contraindicacion('Menta', 'gastritis').
+contraindicacion('Eucalipto', 'asma').
+contraindicacion('Tila', 'hipotensión').
+contraindicacion('Aloe Vera', 'alergia').
+contraindicacion('Anacahuite', 'hipertensión').
+contraindicacion('Árnica', 'heridas abiertas').
+contraindicacion('Barbasco', 'embarazo').
+contraindicacion('Digital', 'problemas cardiacos').
+contraindicacion('Opio', 'embarazo').
+contraindicacion('Ipeca', 'niños pequeños').
+contraindicacion('Nuez Vómica', 'embarazo').
+contraindicacion('Eléboro Blanco', 'embarazo').
+contraindicacion('Colchico', 'problemas renales').
+contraindicacion('Belladona', 'embarazo').
+contraindicacion('Quina', 'hipertensión').
+contraindicacion('Cacao', 'problemas cardiacos').
+contraindicacion('Retama', 'embarazo').
+contraindicacion('Coca', 'problemas cardiacos').
+contraindicacion('Peyote', 'embarazo').
+contraindicacion('Efedra', 'presión arterial alta').
+contraindicacion('Nenúfar Amarillo', 'embarazo').
+contraindicacion('Ñame', 'embarazo').
+contraindicacion('Artemisa', 'embarazo').
+contraindicacion('Semilla de Yute', 'embarazo').
+contraindicacion('Toloache', 'embarazo').
+contraindicacion('Rosal', 'embarazo').
+
+% --- Reglas ---
+
+% Regla para identificar el tratamiento adecuado para una enfermedad
+tratamiento_adecuado(Enfermedad, Hierba) :-
+    tratamiento(Enfermedad, Hierba),
+    \+ contraindicacion(Hierba, _).
+
+% Regla para saber si una hierba puede tratar una enfermedad
+puede_tratar(Hierba, Enfermedad) :-
+    tratamiento_adecuado(Enfermedad, Hierba).
+
+% Regla para identificar si una hierba tiene contraindicaciones
+tiene_contraindicacion(Hierba, Condicion) :-
+    contraindicacion(Hierba, Condicion).
+
+% Regla para verificar si una hierba tiene una propiedad específica
+tiene_propiedad(Hierba, Propiedad) :-
+    hierba(Hierba, Propiedades),
+    member(Propiedad, Propiedades).
+
+% Regla para verificar la forma de empleo de una hierba
+forma_de_empleo(Hierba, Forma) :-
+    se_emplea_de_forma(Hierba, Forma).
